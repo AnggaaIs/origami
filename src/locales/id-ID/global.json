@@ -1,0 +1,25 @@
+{
+  "CMD_ALLOW_DM": "Command **{{cmdName}}** hanya dapat dijalankan di server.",
+  "NO_PERM_CLIENT": "Agar command dapat berjalan dengan baik, izin {{perm}} dibutuhkan!",
+  "NO_PERM_USER": "Kamu membutuhkan izin `{{perm}}` untuk menjalankan command ini!",
+  "HAS_COOLDOWN": "Ooopss, Tunggulah {{time}} detik untuk mencobanya kembali",
+  "ARGS_MIS_TITLE": "📌 Missing Argument",
+  "ARGS_MIS_DESC": "{{cmd}} membutuhkan argument",
+  "ARGS_MIS_MSG": "Pesan",
+  "ARGS_MIS_USG": "Penggunaan",
+  "MUSIC_START_TITLE": "🎶 Mulai bermain",
+  "MUSIC_START_INFO": "[{{title}}]({{uri}}) | `{{duration}}`",
+  "MUSIC_ERROR_TITLE": "🔇 Track Error",
+  "MUSIC_ERROR_INFO": "Terjadi kesalahan saat memutar musik, mohon coba beberapa saat lagi.",
+  "MUSIC_STUCK_TITLE": "🔇 Track Stuck",
+  "QUEUE_END": "Saya keluar dari saluran suara `{{vc}}` karena tidak aktif dalam jangka waktu yg lama.",
+  "IN_CMD": "Anda saat ini sedang menjalankan command `{{cmdName}}`, selesaikan terlebih dahulu.",
+
+  "MUSIC": {
+    "not_voice": "Mohon masuk voice channel dulu",
+    "not_voice_same": "Anda harus berada di voice channel `{{vc}}`",
+    "no_music": "Lagu tidak dapat ditemukan",
+    "load_failed": "Gagal memuat lagu, cobalah beberapa saat lagi.",
+    "not_playing": "Tidak ada musik yang bermain, tambahkan musik dengan perintah `play`"
+  }
+}

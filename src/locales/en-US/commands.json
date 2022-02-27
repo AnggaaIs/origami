@@ -1,0 +1,136 @@
+{
+  "ping": {
+    "description": "Show the bot latency.",
+    "ping_msg_info": "{{ping}} ms"
+  },
+
+  "covid19": {
+    "description": "Displaying covid19 stats by global / country.",
+    "embed_title_global": "Covid19 virus stats global",
+    "embed_title_country": "Covid19 virus stats country {{country}}",
+    "country_no": "Country **{{country}}** could not be found.",
+    "update": "Last update {{time}}",
+    "cases_confirm": "Confirmed cases",
+    "recovered": "Recovered",
+    "today_cases": "Today cases",
+    "today_deaths": "Today deaths"
+  },
+
+  "shard": {
+    "description": "Show shards status.",
+    "title": "📊 Shard stats",
+    "title_info": "{{status}} | Shard#{{id}}",
+    "title_info_current": "{{status}} | Shard#{{id}} (Current server)",
+    "value": "Memory: {{memory}} mb\nGuilds: {{guilds}}\nUsers: {{users}}\nChannels: {{channels}}\nWebsocket: {{ws}} ms "
+  },
+
+  "setlang": {
+    "description": "Change language on your server.",
+    "not_support_lang": "The language you entered is not currently supported, supported languages `{{lang}}`",
+    "no_args": "Enter language, supported languages `{{lang}}`",
+    "same_lang": "You cannot switch to the same language!",
+    "success_set_lang": "Successfully changed language to `{{lang}}`"
+  },
+
+  "setprefix": {
+    "description": "Change prefix on your server.",
+    "no_args": "Enter prefix",
+    "same_prefix": "You are currently using this prefix!",
+    "success_set_prefix": "Successfully changed the prefix to `{{prefix}}`"
+  },
+
+  "play": {
+    "description": "Play music",
+    "no_args": "Enter song title/link/playlist",
+    "res_error": "An unknown error occurred, please try again later.",
+    "added_to_queue_title": "📬 Added to queue",
+    "added_to_queue_info": "[{{title}}]({{uri}}) | `{{duration}}`\nRequested by: <@{{user}}>",
+    "pl_added_to_queue_title": "📬 Playlist added",
+    "pl_added_to_queue_info": "**{{pl_count}}** songs in the **{{pl_name}}** playlist have been successfully added | `{{pl_duration}}`\nRequested by: <@{{user}}>"
+  },
+
+  "stop": {
+    "description": "Stop music and exit the voice channel.",
+    "success_stop": "Clearing queue and exit the voice channel"
+  },
+
+  "search": {
+    "description": "Search music",
+    "select_song_title": "Select a song"
+  },
+
+  "pause": {
+    "description": "Pause current song",
+    "success_pause": "Paused **{{track}}**"
+  },
+
+  "skip": {
+    "description": "Skip current song",
+    "success_skip": "Skip **{{track}}**"
+  },
+
+  "resume": {
+    "description": "Resume current song",
+    "success_resume": "Resumed **{{track}}**"
+  },
+
+  "filter": {
+    "description": "Set filters",
+    "success_set": "Filter **{{nameFilter}}** was successfully set to `{{status}}`",
+    "success_reset": "Successfully reset all filters",
+    "no_filter": "No filters are currently applied!"
+  },
+
+  "weather": {
+    "description": "Weather info by location",
+    "no_args": "Enter location",
+    "not_found": "Location `{{args}}` not found, please enter a valid location"
+  },
+
+  "earthquake": {
+    "description": "Set earthquake notification ",
+    "no_args": "Enter the required arguments!",
+    "no_args_city": "Enter city",
+    "user_no_data": "You have not set city",
+    "success_enable": "Earthquake alert has been activated successfully!, you will receive a notification via dm if there is an earthquake in your city!",
+    "success_disable": "The earthquake alert has been successfully turned off, you will not receive a notification if an earthquake occurs in your city!",
+    "success_set_city": "The city has been successfully set to ``{{city}}``, you will receive a notification if an earthquake occurs in your city!\n\n**Note:** Make sure your city name is written correctly, you will not receive a notification if you enter the wrong/invalid city!"
+  },
+  "eval": {
+    "description": "Evaluate JavaScript code"
+  },
+  "help": {
+    "description": "Displays a list of commands",
+    "description_help1": "Below is a category command, you can see the command by selecting the menu\n```You can use bot with (/) / slash command```\n\n**Why do you have to slash commands? why no custom prefix?**\nOk, Based on Discord's policy starting from April 2022 all bots whose servers are above 75 must switch to a slash command, for that we start implementing it from now on.",
+    "select_category_desc": "Select a category",
+    "childCategory": {
+      "administrator_description": "Displays a list of administrator commands",
+      "audio_description": "Displays a list of audio / music commands",
+      "information_description": "Display a list of information commands",
+      "back_description": "Back"
+    },
+    "help2": {
+      "name_title": "{{cmd}} Command",
+      "name_desc": "Command name",
+      "cooldown": "Cooldown",
+      "usage": "Usage",
+      "clientPerms": "Bot permissions",
+      "userPerms": "User permissions"
+    },
+    "cmd_not_found": "Command `{{cmd}}` could not be found",
+    "total_cmd": "Total commands: {{count}}"
+  },
+  "prayer": {
+    "description": "Display prayer times by location / coordinates",
+    "location_not_found": "Location could not be found",
+    "placeholder_location": "Choose a location",
+    "placeholder_select_method": "Choose a calculation method",
+    "placeholder_select_madhab": "Choose a madhab",
+    "embedSelect": {
+      "title": "Location Validation",
+      "description": "You need to validate your location to get an accurate location\n\n**Note:** Use coordinates if you want to get a more accurate location!"
+    },
+    "location_not_detect": "Location not detected",
+    "title_schedule": "Prayer times"
+  }
+}

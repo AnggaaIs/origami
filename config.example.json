@@ -1,0 +1,29 @@
+{
+  "bot_name": "YOUR BOT NAME",
+  "bot_token": "YOUR TOKEN HERE",
+  "shards": 1,
+  "prefix": "YOUR PREFIX",
+  "prefix2": "/",
+  "mongo_uri": "MONGO DB URI",
+  "owners": ["YOUR ID"],
+
+  "lavalink": {
+    "nodes": [
+      {
+        "identifier": "OrigamiL1",
+        "host": "localhost",
+        "port": 2333,
+        "password": "youshallnotpass",
+        "retryDelay": 10000
+      }
+    ]
+  },
+
+  "apiKey": {
+    "spotify": {
+      "clientID": "SPOTIFY CLIENT ID",
+      "clientSecret": "SPOTIFY CLIENT SECRET"
+    },
+    "geocodeio": "https://dash.geocode.io"
+  }
+}

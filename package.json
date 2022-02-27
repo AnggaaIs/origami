@@ -1,0 +1,68 @@
+{
+  "name": "origami",
+  "version": "0.3.1",
+  "description": "Multi function discord bot!",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "rm -rf dist && tsc && node dist/src/shard.js",
+    "lint": "eslint . --ext .ts",
+    "lint-format": "eslint . --ext .ts --fix",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "AnggaaIs",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "@types/mongoose": "^5.11.97",
+    "@umalqura/core": "^0.0.7",
+    "adhan": "^4.3.1",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.27.2",
+    "discord.js": "^14.0.0-dev.1645402068.78aa36f",
+    "dotenv": "^14.2.0",
+    "erela.js": "^2.3.3",
+    "erela.js-spotify": "^1.2.0",
+    "figlet": "^1.5.2",
+    "geo-tz": "^7.0.1",
+    "geocoder": "^0.2.3",
+    "i18next": "^21.3.2",
+    "i18next-fs-backend": "^1.1.1",
+    "moment": "^2.29.1",
+    "moment-hijri": "^2.1.2",
+    "moment-timezone": "^0.5.34",
+    "mongoose": "^6.1.7",
+    "pretty-ms": "^7.0.1",
+    "spinnies": "^0.5.1",
+    "tsconfig-paths": "^3.11.0"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.9.0"
+  },
+  "_moduleAliases": {
+    "@origami": "dist/src"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.10",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-header": "^3.1.1",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-sort": "^2.4.0",
+    "module-alias": "^2.2.2",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.1.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}

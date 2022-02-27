@@ -1,0 +1,132 @@
+{
+  "ping": {
+    "description": "Menampilkan latensi bot.",
+    "ping_msg_info": "{{ping}} ms"
+  },
+  "covid19": {
+    "description": "Menampilkan stats covid19 berdasarkan global / negara.",
+    "embed_title_global": "Statistik virus covid19 secara global",
+    "embed_title_country": "Statistik virus covid19 negara {{country}}",
+    "country_no": "Negara **{{country}}** tidak dapat ditemukan.",
+    "update": "Pembaharuan terakhir {{time}}",
+    "cases_confirm": "Kasus terkonfirmasi",
+    "recovered": "Pulih",
+    "today_cases": "Kasus hari ini",
+    "today_deaths": "Kematian hari ini"
+  },
+  "shard": {
+    "description": "Menampilkan status shard.",
+    "title": "📊 Status shard",
+    "title_info": "{{status}} | Shard#{{id}}",
+    "title_info_current": "{{status}} | Shard#{{id}} (Server ini)",
+    "value": "Memory: {{memory}} mb\nGuilds: {{guilds}}\nUsers: {{users}}\nChannels: {{channels}}\nWebsocket: {{ws}} ms "
+  },
+  "setlang": {
+    "description": "Ganti bahasa di server anda.",
+    "not_support_lang": "Bahasa yang anda masukan saat ini tidak disupport, bahasa yang di support `{{lang}}`",
+    "no_args": "Masukan bahasa, bahasa yang disupport `{{lang}}`",
+    "same_lang": "Anda tidak dapat mengganti ke bahasa yang sama!",
+    "success_set_lang": "Berhasil mengganti bahasa ke `{{lang}}`"
+  },
+
+  "setprefix": {
+    "description": "Ganti prefix di server anda.",
+    "no_args": "Masukan prefix",
+    "same_prefix": "Anda sedang menggunakan prefix ini!",
+    "success_set_prefix": "Berhasil mengganti prefix ke`{{prefix}}`"
+  },
+
+  "play": {
+    "description": "Memutar musik",
+    "no_args": "Masukan judul/link/playlist musik",
+    "res_error": "Terjadi error yang tidak diketahui, cobalah beberapa saat lagi.",
+    "added_to_queue_title": "📬 Ditambahkan ke antrian",
+    "added_to_queue_info": "[{{title}}]({{uri}}) | `{{duration}}`\nDiminta oleh: <@{{user}}>",
+    "pl_added_to_queue_title": "📬 Playlist ditambahkan",
+    "pl_added_to_queue_info": "**{{pl_count}}** lagu di playlist **{{pl_name}}** berhasil ditambahkan | `{{pl_duration}}`\nDiminta oleh: <@{{user}}>"
+  },
+
+  "stop": {
+    "description": "Hentikan musik dan keluar dari saluran suara.",
+    "success_stop": "Membersihkan antrian dan keluar dari saluran suara."
+  },
+  "search": {
+    "description": "Search music",
+    "select_song_title": "Pilih lagu"
+  },
+
+  "pause": {
+    "description": "Jeda lagu saat ini",
+    "success_pause": "Dijeda **{{track}}**"
+  },
+
+  "skip": {
+    "description": "Lewati lagu saat ini",
+    "success_skip": "Melewati **${{track}}**"
+  },
+
+  "resume": {
+    "description": "Lanjutkan lagu saat ini",
+    "success_resume": "Melanjutkan **{{track}}**"
+  },
+
+  "filter": {
+    "description": "Atur filter",
+    "success_set": "Filter **{{nameFilter}}** berhasil di setel ke `{{status}}`",
+    "success_reset": "Berhasil mereset semua filter",
+    "no_filter": "Tidak ada filter yang diterapkan saat ini!"
+  },
+
+  "weather": {
+    "description": "Info cuaca berdasarkan lokasi",
+    "no_args": "Masukan lokasi",
+    "not_found": "Lokasi `{{args}}` tidak ditemukan, masukan lokasi yang valid"
+  },
+
+  "earthquake": {
+    "description": "Atur notifikasi gempa",
+    "no_args": "Masukan argumen yang dibutuhkan!",
+    "no_args_city": "Masukan kota",
+    "user_no_data": "Kamu belum menyetel kota, setel kota terlebih dahulu.",
+    "success_enable": "Peringatan gempa telah berhasil dinyalakan, anda akan menerima notifikasi melalui dm jika terjadi gempa di kota anda!",
+    "success_disable": "Peringatan gempa berhasil dimatikan, anda tidak akan menerima notifikasi jika terjadi gempa di kota anda!",
+    "success_set_city": "Kota berhasil di setel ke ``{{city}}``, anda akan menerima notifikasi jika terjadi gempa di kota anda!\n\n**Note:** Pastikan penulisan nama kota anda benar, anda tidak akan menerima notifikasi jika memasukan kota yang salah/tidak valid!"
+  },
+  "eval": {
+    "description": "Evaluate JavaScript code"
+  },
+  "help": {
+    "description": "Menampilkan daftar command",
+    "description_help1": "Di bawah ini adalah perintah berdasarkan kategori, Anda dapat melihat perintah dengan memilih menu \n```Anda dapat menggunakan bot dengan (/) / perintah slash```\n\n**Mengapa harus menggunakan slash command? kenapa tidak ada custom prefix?**\nOk, Berdasarkan kebijakan Discord mulai April 2022 semua bot yang servernya di atas 75 harus beralih ke perintah slash, untuk itu kita mulai menerapkannya mulai dari sekarang",
+    "select_category_desc": "Pilih kategori",
+    "childCategory": {
+      "administrator_description": "Menampilka  daftar perintah administrator",
+      "audio_description": "Menampilkan daftar perintah audio / music",
+      "information_description": "Menampilkan daftar perintah informasi",
+      "back_description": "Kembali"
+    },
+    "help2": {
+      "name_title": "Perintah {{cmd}}",
+      "name_desc": "Nama perintah",
+      "cooldown": "Cooldown",
+      "usage": "Penggunaan",
+      "clientPerms": "Izin bot",
+      "userPerms": "Izin pengguna"
+    },
+    "cmd_not_found": "Perintah `{{cmd}}` tidak dapat ditemukan",
+    "total_cmd": "Total perintah {{count}}"
+  },
+  "prayer": {
+    "description": "Menampilkan jadwal sholat berdasarkan lokasi / coordinates",
+    "location_not_found": "Lokasi tidak dapat ditemukan",
+    "placeholder_location": "Pilih lokasi",
+    "placeholder_select_method": "Pilih metode kalkulasi",
+    "placeholder_select_madhab": "Pilih madhab",
+    "embedSelect": {
+      "title": "Validasi Lokasi",
+      "description": "Anda perlu memvalidasi lokasi Anda untuk mendapatkan lokasi yang akurat\n\n**Catatan:** Gunakan koordinat jika Anda ingin mendapatkan lokasi yang lebih akurat!"
+    },
+    "location_not_detect": "Lokasi tidak terdeteksi",
+    "title_schedule": "Jadwal sholat"
+  }
+}

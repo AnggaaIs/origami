@@ -1,0 +1,25 @@
+{
+  "CMD_ALLOW_DM": "Command **{{cmdName}}** can only be run on the server.",
+  "NO_PERM_CLIENT": "For the command to run properly, `{{perm}}` permissions is required!",
+  "NO_PERM_USER": "You need `{{perm}}` permissions to run this command!",
+  "HAS_COOLDOWN": "Ooopss, Wait {{time}} seconds to try again",
+  "ARGS_MIS_TITLE": "📌 Missing Argument",
+  "ARGS_MIS_DESC": "{{cmd}} command required argument",
+  "ARGS_MIS_MSG": "Message",
+  "ARGS_MIS_USG": "Usage",
+  "MUSIC_START_TITLE": "🎶 Started playing",
+  "MUSIC_START_INFO": "[{{title}}]({{uri}}) | `{{duration}}`",
+  "MUSIC_ERROR_TITLE": "🔇 Track Error",
+  "MUSIC_ERROR_INFO": "An error occurred while playing music, please try again later.",
+  "MUSIC_STUCK_TITLE": "🔇 Track Stuck",
+  "QUEUE_END": "I left the voice channel `{{vc}}` due to being inactive for a long time.",
+  "IN_CMD": "You are currently running the command {{cmdName}}, finish it first.",
+
+  "MUSIC": {
+    "not_voice": "Please join the voice channel first.",
+    "not_voice_same": "You must be on the voice channel `{{vc}}`",
+    "no_music": "Song could not be found",
+    "load_failed": "Failed to load song, please try again later.",
+    "not_playing": "No songs are playing, add songs with the `play` command."
+  }
+}

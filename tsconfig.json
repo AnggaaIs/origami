@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": false,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": false,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "typeRoots": ["./node_modules/@types"],
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@origami/*": ["*"]
+    }
+  },
+
+  "include": ["src/**/*", "src/**/*.json"],
+  "exclude": ["node_modules", "dist"]
+}

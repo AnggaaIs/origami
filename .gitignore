@@ -1,0 +1,10 @@
+node_modules/
+
+#build
+dist/
+
+#yarn
+yarn-error.log
+
+#other
+config.json
