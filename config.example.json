@@ -24,6 +24,6 @@
       "clientID": "SPOTIFY CLIENT ID",
       "clientSecret": "SPOTIFY CLIENT SECRET"
     },
-    "geocodeio": "https://dash.geocode.io"
+    "openWeather" : "OPEN WEATHER API KEY"
   }
 }
